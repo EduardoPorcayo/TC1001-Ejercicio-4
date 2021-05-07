@@ -1,0 +1,25 @@
+t 05d226c69e7d47640d93e54e9d8327c32270244d (HEAD -> main, origin/main,
+origin/HEAD)
+Merge: 6642fc5 0eaaf95
+Author: pablopomi1 <A01423181@itesm.mx>
+Date:   Fri May 7 13:10:35 2021 -0500
+
+    merge
+
+commit 6642fc57c089f952beff44aeee4c494d7c7a0ade (a01423181)
+Author: pablopomi1 <A01423181@itesm.mx>
+Date:   Fri May 7 13:09:17 2021 -0500
+
+    Infinite game
+
+commit 70c5c6fdf2e5f0abd6952c7420dbc80c4e23b15e
+Author: pablopomi1 <62619936+pablopomi1@users.noreply.github.com>
+Date:   Fri May 7 11:32:46 2021 -0500
+
+    Add files via upload
+
+commit ce3076438efd0ca1c35f524b458c80a2bb2632ca
+Author: pablopomi1 <62619936+pablopomi1@users.noreply.github.com>
+Date:   Fri May 7 11:29:16 2021 -0500
+
+    Initial commit

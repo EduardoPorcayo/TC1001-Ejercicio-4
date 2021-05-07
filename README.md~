@@ -1,6 +1,8 @@
 # TCH1001-Tiroparabolico
+Pablo Michán
+Eduardo Porcayo
 El código del Juego del Tiro Parabólico original, lo pudimos encontrar en la siguiente liga: http://www.grantjenks.com/docs/freegames/cannon.html 
 
 Para poder cambiar la velocidad, tanto de los objetivos como del proyectil, únicamente se modificaron los datos en las secciones ya antes preestablecidas de speed y target, donde al variar los números, podemos ya sea disminuir o aumentar la velocidad, que en este caso por la instrucción, se optó por aumentarla.
 
- 
+Para hacer el juego infinito se modificaron  
