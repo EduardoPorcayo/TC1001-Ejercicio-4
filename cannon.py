@@ -44,11 +44,11 @@ def draw():
     update()
 
 def move():
-    "Move ball and targets."
-    if randrange(40) == 0:
-        y = randrange(-150, 150)
-        target = vector(200, y)
-        targets.append(target)
+    if len(targets) < 30:
+         if randrange(40) == 0:
+             y = randrange(-150, 150)
+             target = vector(200, y)
+             targets.append(target)
 
     for target in targets:
         target.x -= 0.5
@@ -68,7 +68,7 @@ def move():
 
     for target in targets:
         if not inside(target):
-            return
+            target.x = 200
 
     ontimer(move, 50)
 
