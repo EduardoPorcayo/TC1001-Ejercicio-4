@@ -22,8 +22,13 @@ def tap(x, y):
     if not inside(ball):
         ball.x = -199
         ball.y = -199
+<<<<<<< HEAD
         speed.x = (x + 200) / 25
         speed.y = (y + 200) / 25
+=======
+        speed.x = (x + 200) / 10 
+        speed.y = (y + 200) / 10
+>>>>>>> 0eaaf959b19f018fe9015bdfff41db775988ff05
 
 def inside(xy):
     "Return True if xy within screen."
@@ -44,6 +49,7 @@ def draw():
     update()
 
 def move():
+<<<<<<< HEAD
     if len(targets) < 30:
          if randrange(40) == 0:
              y = randrange(-150, 150)
@@ -56,6 +62,20 @@ def move():
     if inside(ball):
         speed.y -= 0.35
         ball.move(speed)
+=======
+    "Move ball and targets."
+    if randrange(40) == 0:
+        y = randrange(-150, 150)
+        target = vector(200, y)
+        targets.append(target)
+
+    for target in targets:
+        target.x -= 1.5
+
+    if inside(ball):
+        speed.y -= 0.035
+        ball.move(1.5 * speed)
+>>>>>>> 0eaaf959b19f018fe9015bdfff41db775988ff05
 
     dupe = targets.copy()
     targets.clear()
@@ -68,7 +88,11 @@ def move():
 
     for target in targets:
         if not inside(target):
+<<<<<<< HEAD
             pass
+=======
+            return
+>>>>>>> 0eaaf959b19f018fe9015bdfff41db775988ff05
 
     ontimer(move, 50)
 
